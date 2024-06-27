@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(77, 77, 77);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 60px;
+}
+
+#bet{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-bottom: 1px solid;
+}
+
+.botao{
+    background-color: rgb(137, 78, 255);
+    border: none;
+    border-radius: 9px;
+    padding: 9px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    font-size: 13px;
+}
+
+.botao:hover {
+    transform: scale(1.05);
+}
